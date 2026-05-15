@@ -33,6 +33,7 @@ case $option in
 	    ;;
 	2)
 	    echo "Uninstalling"
+		chsh -s /usr/bin/bash
 		sudo pacman -Rns $pkgs
 		echo "Package uninstallation done!"
 		sudo rm -rf /usr/share/backgrounds/ivyos/
