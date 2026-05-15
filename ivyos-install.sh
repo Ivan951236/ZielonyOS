@@ -21,6 +21,7 @@ case $option in
 		echo "Package installation done!"
 		echo "I will ask for your account's password now!"
 		sudo systemctl enable lemurs.service
+		chsh -s /usr/bin/nu
 		sudo cp ./motd /etc/motd
 		sudo cp ./os-release /etc/os-release
 		sudo cp ./.ascii_art_for_hyfetch ~
