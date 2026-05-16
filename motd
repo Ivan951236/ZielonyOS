@@ -1,8 +1,8 @@
-Welcome to IvyOS!
+Welcome to ZielonyOS!
 Here's some things to consider:
 1. I have promised to use nushell as the default shell, shoutout to atlas the genode fanatic!
 2. This distro is based on Arch, like EndeavourOS or Manjaro (please don't use Manjaro >_<)
-3. IvyOS is trying to be fully unique, the choices are truly exotic.
+3. ZielonyOS is trying to be fully unique, the choices are truly exotic.
 4. We are using progman for the WM, because that's a exotic choice.
 
 read the README.md in /home/ivyos for more information.
