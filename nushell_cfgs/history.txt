@@ -1,0 +1,160 @@
+clear
+config nu
+EDITOR=nano config nu
+EDITOR=nano config nu -d
+EDITOR=nano config nu
+EDITOR=nano config nu > ~/.config/nushell/config.nu
+EDITOR=nano config nu o> ~/.config/nushell/config.nu
+cat ~/.config/nushell/config.nu
+mkdir ~/.config/nushell
+EDITOR=nano config nu o> ~/.config/nushell/config.nu
+EDITOR=nano config nu out>> ~/.config/nushell/config.nu
+EDITOR=nano config nu out> ~/.config/nushell/config.nu
+EDITOR=nano config nu
+EDITOR=nano config nu -d
+EDITOR=nano config nu
+clear
+cat ~/.bashrc
+firefox
+clear
+paru -S micro
+clear
+cat ~/.bashrc
+paru -S micro
+paru -S xclip wl-clipboard
+clear
+cat ~/.bashrc\
+cat ~/.bashrc
+nano ~/.config/nushell/env.nu
+clear
+exit
+nano ~/.config/nushell/env.nu
+exit
+nano ~/.config/nushell/env.nu
+exit
+nano ~/.config/nushell/env.nu
+exit
+nano ~/.config/nushell/env.nu
+exit
+nano ~/.config/nushell/env.nu
+exit
+nano ~/.config/nushell/env.nu
+exit
+clear
+ls
+clear
+grep
+clear
+doas
+clear
+reboot
+clear
+paru -S fastfetch hyfetch
+clear
+hyfetch
+clear
+hyfetch -c
+clear
+clear && hyfetch
+clear
+clear;hyfetch
+sudo micro /etc/os-release
+clear
+clear;hyfetch
+clear;hyfetch -c
+ls /mnt
+mount -t vboxsf -o gid=vboxsf Vbox-SF /mnt
+sudo mount -t vboxsf -o gid=vboxsf Vbox-SF /mnt
+clear
+ls /mnt
+ls ~
+nano ~/.ascii_art_for_hyfetch
+hyfetch -c
+nano README.md
+clear
+sudo nano /etc/motd
+clear
+sudo nano /etc/motd
+micro nano /etc/motd
+sudo micro /etc/motd
+clear
+shutdown
+shutdown -c
+poweroff
+clear
+paccache -r
+paru -S paccache
+paru -S pacman-contrib
+clear
+paccache -r
+paccache
+paccache -h
+clear
+paccache -S
+paccache -s
+clear
+pacman -Sc
+sudo pacman -Sc
+sudo pacman -Scc
+ls /var/cache/pacman/pkg/
+clear
+pacman -Qd
+pacman -Qe
+pacman -Qd
+clear
+pacman -Qd
+pacman -Qe
+clear
+pacman -Qe
+clear
+ls
+ls -a
+mount -t vboxsf -o gid=vboxsf Vbox-SF /mnt
+sudo mount -t vboxsf -o gid=vboxsf Vbox-SF /mnt
+sudo cp ~/*.ascii* /mnt
+sudo cp -r /usr/share/backgrounds /mnt
+ls /mnt
+ls /mnt -a
+sudo cp /etc/os-release /mnt
+sudo micro /etc/motd
+sudo cp /etc/motd /mnt
+clear
+hyfetch
+clear
+hyfetch
+sudo cp ~/README.md /mnt
+ls /mnt
+clear
+pacman -Qe
+clear
+pacman -Qd
+clear
+pacman -Qd
+clear
+exit
+clear
+hyfetch
+poweroff
+cd gits
+clear
+git clone https://github.com/Ivan951236/zielonyos
+cd zielonyos
+clear
+zielonyos-install
+./zielonyos-install.sh
+chmod +x ./zielonyos-install.sh
+./zielonyos-install.sh
+clear
+hyfetch
+clear
+ls /etc/grub
+ls /etc/
+clear
+ls /boot/
+ls /boot/grub
+sudo micro /boot/grub/grub.cfg
+sudo mount -t vboxsf -o gid=vboxsf Vbox-SF /mnt
+sudo cp /boot/grub/grub.cfg /mnt
+ls /mnt
+ls ~/.config/nushell
+sudo cp ~/.config/nushell /mnt/nushell_cfgs

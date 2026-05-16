@@ -31,6 +31,8 @@ case $option in
 		echo "You can now use ZielonyOS wallpapers in Window Maker!"
 		sudo cp -r ./grub.cfg /boot/grub/grub.cfg
 		echo "if the copying didn't work for the GRUB configuration and you don't use GRUB, please disregard the error."
+		sudo mkdir -p ~/.config/nushell/
+		sudo cp -r ./nushell_cfgs/* ~/.config/nushell/
 		echo "and we are done here!"
 	    ;;
 	2)
