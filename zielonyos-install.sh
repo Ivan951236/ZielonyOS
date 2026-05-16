@@ -63,7 +63,7 @@ case $option in
 		sudo systemctl enable lemurs.service
 		chsh -s /usr/bin/nu
 		sudo cp ./motd /etc/motd
-		sudo cp ./os-release /etc/os-release
+		sudo cp ./2000s/os-release /etc/os-release
 		sudo cp ./.ascii_art_for_hyfetch ~
 		sudo cp ./README_.md ~
 		echo "For more information about the distro, read `~/README_.md`!"
