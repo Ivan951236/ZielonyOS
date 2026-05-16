@@ -38,7 +38,7 @@ case $option in
 		sudo cp ./os-release /etc/os-release
 		sudo cp ./.ascii_art_for_hyfetch ~
 		sudo cp ./README_.md ~
-		echo "For more information about the distro, read `~/README_.md`!"
+		echo "For more information about the distro, read ~/README_.md!"
 		sudo cp -r ./backgrounds/zielonyos /usr/share/backgrounds/
 		echo "You can now use ZielonyOS wallpapers in Window Maker!"
 		sudo cp -r ./grub.cfg /boot/grub/grub.cfg
@@ -66,7 +66,7 @@ case $option in
 		sudo cp ./2000s/os-release /etc/os-release
 		sudo cp ./.ascii_art_for_hyfetch ~
 		sudo cp ./README_.md ~
-		echo "For more information about the distro, read `~/README_.md`!"
+		echo "For more information about the distro, read ~/README_.md!"
 		sudo cp -r ./backgrounds/zielonyos /usr/share/backgrounds/
 		echo "You can now use ZielonyOS wallpapers in Window Maker!"
 		sudo cp -r ./grub.cfg /boot/grub/grub.cfg
