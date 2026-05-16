@@ -28,7 +28,9 @@ case $option in
 		sudo cp ./README_.md ~
 		echo "For more information about the distro, read `~/README_.md`!"
 		sudo cp -r ./backgrounds/zielonyos /usr/share/backgrounds/
-		echo "You can now use zielonyos wallpapers in Window Maker!"
+		echo "You can now use ZielonyOS wallpapers in Window Maker!"
+		sudo cp -r ./grub.cfg /boot/grub/grub.cfg
+		echo "if the copying didn't work for the GRUB configuration and you don't use GRUB, please disregard the error."
 		echo "and we are done here!"
 	    ;;
 	2)
