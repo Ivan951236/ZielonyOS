@@ -11,6 +11,7 @@ Read the `README_.md` for more information about the distro!
 
 # ZielonyOS Installation Media
 ZielonyOS Installation Media is a bare-metal version of ZielonyOS Installer, just run `/usr/bin/zielonyos/zielonyos-install.sh` script to install ZielonyOS
+[Download from Google Drive](https://drive.google.com/drive/folders/1tQyGzO7_pQz1wFsbVvvVwze4B85ghqMh?usp=drive_link)
 ## Pros
 - More Familiar installation
 - Faster installation
