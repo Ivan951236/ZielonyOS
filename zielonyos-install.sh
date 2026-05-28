@@ -1,8 +1,8 @@
 #!/bin/bash
 
 option=""
-pkgs="base-devel xterm cool-retro-term xclip wl-clipboard windowmaker progman sudo python-pipx nushell ninja micro nano xorg wayland hyfetch git firefox fastfetch aria2 networkmanager lemurs btop flatpak"
-pkgs_2000="base-devel xterm xclip wl-clipboard maxx-desktop sudo python-pipx nushell ninja micro nano xorg wayland hyfetch git firefox fastfetch aria2 networkmanager lemurs btop flatpak"
+pkgs="base-devel xterm cool-retro-term xclip wl-clipboard windowmaker progman sudo python-pipx nushell ninja micro nano xorg wayland git firefox fastfetch aria2 networkmanager lemurs btop flatpak rust"
+pkgs_2000="base-devel xterm xclip wl-clipboard maxx-desktop sudo python-pipx nushell ninja micro nano xorg wayland git firefox fastfetch aria2 networkmanager lemurs btop flatpak rust"
 flatpak1="com.github.tchx84.Flatseal"
 flatpak2="io.github.flattool.Warehouse"
 flatpak3="ru.linux_gaming.PortProton"
@@ -33,6 +33,9 @@ case $option in
 		echo "Package installation done!"
 		echo "I will ask for your account's password now!"
 		sudo systemctl enable lemurs.service
+		sudo git clone https://github.com/Ivan951236/hydera-fetch
+		cd hydera-fetch && cargo build && cp ./target/debug/hyfetch /usr/bin/hyfetch
+		sudo chmod +x /usr/bin/hyfetch
 		chsh -s /usr/bin/nu
 		sudo cp ./motd /etc/motd
 		sudo cp ./os-release /etc/os-release
@@ -61,6 +64,9 @@ case $option in
 		echo "Package installation done!"
 		echo "I will ask for your account's password now!"
 		sudo systemctl enable lemurs.service
+		sudo git clone https://github.com/Ivan951236/hydera-fetch
+		cd hydera-fetch && cargo build && cp ./target/debug/hyfetch /usr/bin/hyfetch
+		sudo chmod +x /usr/bin/hyfetch
 		chsh -s /usr/bin/nu
 		sudo cp ./motd /etc/motd
 		sudo cp ./2000s/os-release /etc/os-release
