@@ -19,6 +19,10 @@
 alias doas = sudo
 alias restart = reboot
 alias quit = exit
+alias vi = micro
+alias vim = micro
+alias nano = micro
+alias emacs = micro
 
 def prompt [] {
 let user = (env USER) | default $env.USER
